@@ -70,3 +70,7 @@ IAM Role 을 통해, 다른 인프라와의 접근이 가능하므로, 이를 �
 ***
 
 #### 예제 링크 [ECS CloudFormation Example Template](https://github.com/aws-samples/ecs-refarch-cloudformation/blob/master/infrastructure/ecs-cluster.yaml)
+
+#### 스택 간 의존성
+
+![img](images/cloudformation_designer.png)
