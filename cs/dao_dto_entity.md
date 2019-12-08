@@ -8,7 +8,7 @@ DAO, DTO, Entity
 * 보통 DTO 를 인자로 받아, ToEntity() 메소드를 통하여, Entity 로 변환 후, DB 관련 작업 수행
 * 반환해야 할 값이 있다면, Entity 를 다시 ToDto() 메소드를 퉁하여, DTO Layer 변환 후, 반환해주는 역할을 한다.
 
-![img](../../images/dao_dto_entity_dao.png)
+![img](../images/dao.PNG)
 
 ***
 
@@ -19,7 +19,7 @@ DAO, DTO, Entity
 * 주로, 로직을 갖고 있지 않은, 순수하게 get, set 으로만 구성된 객체이다.
 * Controller Layer 에선, Client 에게 Response DTO 형태로 Response 를 내려준다.
 
-![img](../../images/dao_dto_entity_dto.png)
+![img](../images/dto.PNG)
 
 ***
 
@@ -30,7 +30,7 @@ DAO, DTO, Entity
 * 가장 core 한 클래스로, 실제 DB 의 스키마와 매칭되고, ToDto() 메소드르 통하여, Service Layer 에 데이터를 전달한다.
 
 
-![img](../../images/dao_dto_entity_entity.png)
+![img](../images/entity.PNG)
 
 ***
 
@@ -38,4 +38,4 @@ DAO, DTO, Entity
 
 #### 아래와 같은 흐름도를 가지면서, 데이터 교환이 일어난다고 보면 된다.
 
-![img](../../images/dao_dto_entity_conclusion.png)
+![img](../images/dao_dto_entity.png)
