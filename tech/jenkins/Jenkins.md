@@ -18,7 +18,7 @@
 
 해당 경로로 접속한 다음, password 를 입력하면 jenkins 스타트 !
 
-![img](../images/jenkins_login.PNG)
+![img](../../images/jenkins_login.PNG)
 
 
 그 다음, 처음 볼 때에는 이게 무슨 UI 라고 할 수 있다싶이한 페이지가 나옵니다. 
@@ -33,7 +33,7 @@
 
 Github Login -> Settings -> Developer settings -> Personal access tokens -> Generate new token
 
-![img](../images/jenkins_github_access_token.PNG)
+![img](../../images/jenkins_github_access_token.PNG)
 
 원하는 조건을 선택하여 토큰을 발급하시면 됩니다.
 
@@ -55,7 +55,7 @@ CI / CD 연동에 필요한 플러그인을 다운받아야 합니다. 아래 �
 
 jenkins 서버와 github api 서버를 연동해야 하는데, 이는 jenkins 관리 /  시스템 설정 탭에서 설정할 수 있습니다.
 
-![img](../images/jenkins_github_server.PNG)
+![img](../../images/jenkins_github_server.PNG)
 
 먼저, Credential 을 생성 (Add 버튼 클릭 후, Kind 를 Secret Text 로 설정 후, 깃헙에서 발급받은 access token 입력)
 
@@ -69,7 +69,7 @@ Blue Ocean 탭으로 접속합니다.
 
 그럼 처음 파이프라인을 생성하라는 메세지가 나올텐데, 생성 버튼을 누르고, 사용할 소스 형상 관리 툴을 선택합니다.
 
-![img](../images/jenkins_home.PNG)
+![img](../../images/jenkins_home.PNG)
 
 다음, 파이프라인을 구축할 repository 를 선택 후, 아까 발급받은 access token 을 입력해주면 끝 ! 이 아니라...
 
@@ -83,11 +83,11 @@ Blue Ocean 탭으로 접속합니다.
 
 이 때, Branch Source 란을 본인의 레포와 맞춰주시고,
 
-![img](../images/jenkins_branch_sources.PNG)
+![img](../../images/jenkins_branch_sources.PNG)
 
 아래 Build_Configuration 에 groovy 형식으로 작성된 jenkinsfile 의 위치를 맵핑시켜주면 됩니다.
 
-![img](../images/jenkins_build_configuration.PNG)
+![img](../../images/jenkins_build_configuration.PNG)
 
 ***
 
