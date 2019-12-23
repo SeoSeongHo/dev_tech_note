@@ -16,6 +16,8 @@
 
 * [CI/CD](tech/jenkins/CI_CD.md)
 
+* [Jenkins](tech/jenkins/Jenkins.md)
+
 ***
 
 ### CS
